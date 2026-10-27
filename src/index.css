@@ -1,0 +1,7 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body, #root { height: 100%; width: 100%; overflow: hidden; }
+.bg {
+  position: fixed; inset: 0;
+  background: radial-gradient(circle at 30% 30%, #0b3d3a 0%, #0a1f3d 60%, #051020 100%);
+}
+.waves { position: absolute; inset: 0; width: 100%; height: 100%; }
